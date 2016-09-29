@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_cal"
+    android:layout_width="@dimen/dim200"
+    android:layout_height="@dimen/dim200"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:id="@+id/ll_info"
+        android:layout_width="@dimen/dim160"
+        android:layout_height="@dimen/dim160"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="17"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/txt50" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="国庆"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/txt30" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_tip"
+        android:layout_width="@dimen/dim8"
+        android:layout_height="@dimen/dim8"
+        android:layout_below="@id/ll_info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dim5"
+        android:background="@drawable/circle_green" />
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/ll_info"
+        android:layout_alignTop="@id/ll_info"
+        android:text="休"
+        android:textSize="@dimen/txt10" />circle_green.xml
+
+</RelativeLayout>
